@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        app:srcCompat="@drawable/instalogo" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="128dp"
+        app:srcCompat="@drawable/facebook_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="164dp"
+        android:layout_height="33dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:fontFamily="Roboto"
+        android:gravity="center_vertical"
+        android:text="Log in with Facebook"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:background="#33FFFFFF"
+        android:paddingBottom="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@id/line"
+        android:background="#22FFFFFF" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="151dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="177dp"
+        android:background="#33FFFFFF" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="151dp"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="11dp"
+        android:background="#33FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="211dp"
+        android:background="@drawable/rounded"
+        android:padding="15dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#55FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="167dp"
+        android:fontFamily="Robota"
+        android:text="OR"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
